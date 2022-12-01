@@ -1,0 +1,422 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+.home{
+	width: 100%;
+	height: 80vh;
+	background-image:url(op3.jpg);
+	background-size: cover;
+	background-position: center;
+	display: table;
+	margin: auto;
+	padding-left: 100px;
+	padding-right: 100px;
+	box-sizing: border-box;
+}
+.logo {
+    float: left;
+    padding: 17px 0px;
+    font-size: 40px;
+    color: white;
+}
+.logo a {
+    color: white;
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: 600;
+    padding: 15px;
+}
+.logo span {
+    color: #ff4a04;
+}
+nav{
+	flex: 1;
+	text-align: right;
+    
+}
+nav ul li {
+    display: inline-block;
+    margin: 21px 5px;
+    list-style: none;
+    margin-left: 50px;
+}
+nav ul li a {
+    color: white;
+    position: relative;
+    font-size: 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding: 15px 10px;
+    transition: .5s;
+}
+
+nav.active {
+    color:#ff4a04;   
+}
+nav li a:after {
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    background: #ff4a04;
+    bottom: 0px;
+    left: 0;
+    transition: all .5s;
+}
+nav li a:hover:after {
+    width: 100%;
+}
+nav .active:after{
+    width: 100%;
+}
+.row{
+	display: flex;
+	height: 88%;
+	align-items: center;
+	padding-left: 105px;
+	margin-top: 30px;
+}
+.row img{
+	height: auto;
+	width: 450px;
+	padding-right: -150px;
+}
+.col{
+	flex-basis: 50%;
+}
+h1{
+	font-size: 100px;
+	color:white;
+	padding-left: -25px;
+}
+h4{
+	color: black;
+	letter-spacing: 2px;
+	font-size: 20px;
+}
+p{
+	font-size: 12px;
+	color: black;
+	line-height: 15px;
+	padding-left: -25px;
+}
+.button{
+	background-color:#ff4a04;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 10px 22px;
+	border-radius: 30px;
+	transition: .4s;
+}
+.button:hover{
+	background-color: transparent;
+	border: 2px solid #ff4a04;
+	cursor: pointer;
+}
+.acard{
+	width: 200px;
+	height: 230px;
+	display: inline-block;
+	border-radius: 8px;
+	padding: 15px 25px;
+	box-sizing: border-box;
+	cursor: pointer;
+	margin:10px 15px;
+	background-position: center;
+	background-size: cover;
+	transition: transform 0.5s;
+}
+.acard .row .column{
+	width: 50%;
+}
+.card1{
+	background-image: url(school.png);
+	width: 200px;
+    height: 200px;
+	background-position: center;
+	background-size: cover;
+}
+.card2{
+	background-image: url(skill.png);
+	width: 190px;
+    height: 190px;
+	background-position: center;
+	background-size: cover;
+}
+.card3{
+	background-image: url(interest.png);
+	width: 205px;
+    height: 205px;
+    background-position: center;
+    background-size: cover;
+	background-position: center;
+	background-size: cover;
+}
+.card4{
+	background-image: url(work.png);
+	width: 195px;
+    height: 190px;
+    margin-bottom: 7%;
+    background-position: center;
+    background-size: cover;
+}
+.card5{
+    background-image: url(c7.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.card6{
+    background-image: url(c1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.card7{
+    background-image: url(c2.jpg);
+    background-position: center;
+	background-size: cover;
+}
+.card8{
+    background-image: url(c3.jpg);
+	background-position: center;
+	background-size: cover;
+}
+.acard:hover{
+	transform: translateY(-10px);
+}
+h5{
+	color:white;
+	text-shadow: 0 0 5px #999;
+}
+.card p{
+	text-shadow: 0 0 15px #000;
+	font-size:8px;
+}
+.about {
+	width: 100%;
+	padding: 100px 0px;
+	background-image: url(op5.jpg);
+}
+
+.about-text{
+	width: 550px;
+}
+.main{
+	width: 1130px;
+	max-width: 95%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.about-text h2{
+	color: white;
+	font-size: 75px;
+	text-transform: capitalize;
+	margin-bottom: 20px;
+}
+.about-text h5{
+	color: white;
+	letter-spacing: 2px;
+	font-size: 22px;
+	margin-bottom: 25px;
+	text-transform: capitalize;
+}
+.about-text p{
+	color: #fcfc;
+	letter-spacing: 1px;
+	line-height: 28px;
+	font-size: 18px;
+	margin-bottom: 45px;
+}
+.service{
+	background-image: url(op6.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	width: 100%;
+	padding: 100px 0px;
+}
+.title h2{
+	color: white;
+	font-size: 75px;
+	width: 1130px;
+	margin: 30px auto;
+	text-align: center;
+}
+.box{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 400px;
+}
+.card{
+	height: 365px;
+	width: 335px;
+	padding: 20px 35px;
+	background-image: url(esl.jpg);
+	border-radius: 20px;
+	margin: 15px;
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+}
+.card-a{
+	background-image: url(esl.jpg);
+	background-position: center;
+	background-size: cover;
+}
+.card-b{
+	background-image: url(remote.jpg);
+	background-position: center;
+	background-size: cover;
+}
+.card-c{
+	background-image: url(affiliate.jpg);
+	background-position: center;
+	background-size: cover;
+	height: 365px;
+	width: 335px;
+	object-fit: fill;
+}
+.card i{
+	font-size: 50px;
+	display: block;
+	text-align: center;
+	margin: 25px 0px;
+	color: #ff4a04;
+}
+.card:hover{
+	transform: translateY(-10px);
+}
+
+h5{
+	color: black;
+	font-size: 23px;
+	margin-bottom: 15px;
+}
+.pra p{
+	color: black;
+	font-size: 16px;	
+	line-height: 27px;
+	margin-bottom: 25px;
+}
+.pra1 p{
+	color: black;
+	font-size: 16px;
+	line-height: 27px;
+	margin-bottom: 25px;
+}
+.pra2 p{
+	color: black;
+	font-size: 16px;
+	line-height: 27px;
+	margin-bottom: 25px;
+}
+.card .button{
+	background-color:#ff4a04;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 9px 22px;
+	border-radius: 30px;
+	transition: .4s; 
+}
+.card .button:hover{
+	background-color: transparent;
+	border: 2px solid #ff4a04;
+	cursor: pointer;
+}
+.contacts {
+	width: 100%;
+	height: 200%;
+	padding: 100px;
+	background-image: url(op3.jpg);
+}
+.download_cv{
+	width: 100%;
+	height: 290px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+}
+.download_cv p{
+	color: white;
+	font-size: 30px;
+	font-weight: bold;
+	margin-bottom: 25px;
+}
+.download_cv .button-two{
+	background-color:#ff4a04;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 13px 30px;
+	border-radius: 30px;
+	transition: .4s; 
+}
+.download_cv .button-two:hover{
+	background-color: transparent;
+	border: 2px solid #ff4a04;
+	cursor: pointer;
+}
+footer{
+	position: relative;
+	width: 100%;
+	height: 400px;
+	background-image: url(op8.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+footer p:nth-child(1){
+	font-size: 30px;
+	color: white;
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+footer p:nth-child(2){
+	color: white;
+	font-size: 17px;
+	width: 500px;
+	text-align: center;
+	line-height: 26px;
+}
+.social{
+	display: flex;
+}
+.social a{
+	width: 45px;
+	height: 45px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background:  #ff4a04;
+	border-radius: 50%;
+	margin: 22px 10px;
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+}
+.social a:hover{
+	transform: scale(1.3);
+	transition: .3s;
+}
+.end{
+	position: absolute;
+	color:#ff4a04;
+	bottom: 35px;
+	font-size: 14px; 
+}

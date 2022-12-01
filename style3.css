@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+.home{
+    width: 100%;
+    height: 100vh;
+    background-image:url(op5.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: table;
+    margin: auto;
+    padding-left: 100px;
+    padding-right: 100px;
+    box-sizing: border-box;
+}
+.logo {
+    float: left;
+    padding: 17px 0px;
+    font-size: 40px;
+    color: white;
+}
+.logo a {
+    color: white;
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: 600;
+    padding: 15px;
+}
+.logo span {
+    color: #ff4a04;
+}
+
+
+h5{
+    color:white;
+    text-shadow: 0 0 5px #999;
+}
+.card p{
+    text-shadow: 0 0 15px #000;
+    font-size:8px;
+}
+.one {
+    width: 100%;
+    padding: 100px 0px;
+    background-image: url(gr6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.two {
+    width: 100%;
+    padding: 100px 0px;
+    background-image: url(gr5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
